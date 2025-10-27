@@ -248,7 +248,7 @@ If this project helped you, please cite the repo:
 ```bibtex
 @misc{anomalymap2025,
   title  = {AnomalyMap: Unsupervised Defect Detection via Autoencoders},
-  author = {Vatsal, Pulkit},  # edit to your preference
+  author = {Vatsal},  # edit to your preference
   year   = {2025},
   url    = {https://github.com/Vatsal212005/AnomalyMap}
 }
@@ -256,6 +256,3 @@ If this project helped you, please cite the repo:
 
 ---
 
-## ⭐ Acknowledgments
-- Built with **PyTorch** and **TorchVision**.
-- Inspired by classic reconstruction‑based anomaly detection techniques.
