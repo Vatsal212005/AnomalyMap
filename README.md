@@ -234,7 +234,7 @@ If this project helped you, please cite the repo:
 ```bibtex
 @misc{anomalymap2025,
   title  = {AnomalyMap: Unsupervised Defect Detection via Autoencoders},
-  author = {Vatsal},  # edit to your preference
+  author = {Vatsal},
   year   = {2025},
   url    = {https://github.com/Vatsal212005/AnomalyMap}
 }
