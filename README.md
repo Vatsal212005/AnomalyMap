@@ -220,25 +220,11 @@ This simple AE is intentionally lightweight and ideal for **intro anomaly detect
 
 ---
 
-## 🛠️ Troubleshooting
-
-- **MNIST 404 on old host**: TorchVision auto‑fallbacks to `ossci-datasets.s3.amazonaws.com`. No action needed.
-- **CUDA not available**: Ensure your PyTorch build matches your CUDA version. Otherwise run with `--device cpu`.
-- **AMP deprecation warnings**: Newer PyTorch prefers `torch.amp.autocast('cuda')` and `torch.amp.GradScaler('cuda')`. Scripts handle this.
-- **Slow DataLoader on Windows**: keep `--num-workers 0` or increase cautiously; enable `pin_memory` on CUDA (already set).
-
----
-
 ## ✅ Roadmap Ideas
 - Threshold selection (e.g., Otsu, percentile) for binary anomaly decisions
 - PR‑AUC / ROC‑AUC using a held‑out validation set
 - VAE or UNet‑style AE for richer reconstructions
 - Grad‑CAM or attention maps for interpretability (on supervised variants)
-
----
-
-## 📄 License
-This repository is released under the **MIT License**. See `LICENSE` (add one if missing).
 
 ---
 
