@@ -37,10 +37,6 @@ AnomalyMap/
 │   ├── 04_visualize_heatmaps.py # [input | recon | heatmap] triptychs
 │   └── 05_latent_viz.py         # (optional) t‑SNE of encoder latents
 │
-├── utils/
-│   ├── __init__.py
-│   └── helpers.py               # (placeholder for shared utilities)
-│
 ├── results/
 │   ├── training_loss_plot.png
 │   ├── error_histogram.png
